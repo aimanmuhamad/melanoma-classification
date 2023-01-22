@@ -13,7 +13,6 @@ class MLP(nn.Module):
         self.batchnorm1 = nn.BatchNorm1d(n_hidden1)
         self.batchnorm2 = nn.BatchNorm1d(n_hidden2)
         
-        
     def forward(self, inputs):
         x = self.relu(self.layer_1(inputs))
         x = self.batchnorm1(x)
