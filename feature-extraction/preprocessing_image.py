@@ -1,4 +1,4 @@
-from preprocessing_module import *
+from module import *
 
 global_folder = YOUR_FOLDER
 

@@ -1,7 +1,6 @@
 import numpy as np
 from sklearn.neighbors import KNeighborsClassifier
 
-
 # error rate
 def error_rate(xtrain, ytrain, x, opts):
     # parameters
