@@ -82,11 +82,11 @@ def feature_extractor(filename):
     correlation_90_degree = correlation[2]
     
     # 135 Degree
-    dissimilarity_135_degree = dissimilarity[2]
-    contrast_135_degree = contrast[2]
-    homogeneity_135_degree = homogeneity[2]
-    energy_135_degree = energy[2]
-    correlation_135_degree = correlation[2]
+    dissimilarity_135_degree = dissimilarity[3]
+    contrast_135_degree = contrast[3]
+    homogeneity_135_degree = homogeneity[3]
+    energy_135_degree = energy[3]
+    correlation_135_degree = correlation[3]
     
     l = [filename, dissimilarity_0_degree, contrast_0_degree, homogeneity_0_degree, energy_0_degree, correlation_0_degree,
         dissimilarity_45_degree, contrast_45_degree, homogeneity_45_degree, energy_45_degree, correlation_45_degree,
