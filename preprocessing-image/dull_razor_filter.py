@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 def dull_razor(img : np.ndarray) -> np.ndarray:
-    # konversi gambar ke grayscale
+    # Grayscale conversion
     grayScale = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
 
     # black hat filter
